@@ -1,0 +1,56 @@
+import 'package:get/get.dart';
+
+/// All app-owned labels; Flutter's built-in strings use localization delegates.
+class AppTranslations extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+    'en': {
+      'appName': 'Starter',
+      'welcome': 'Welcome back',
+      'username': 'Username',
+      'password': 'Password',
+      'required': 'Required',
+      'loading': 'Loading…',
+      'login': 'Sign in',
+      'language': '中文 / English',
+      'loginError': 'Sign-in failed. Check credentials and connection.',
+      'requestError': 'Request failed. Refresh and try again.',
+      'tasks': 'My tasks',
+      'refresh': 'Refresh',
+      'logout': 'Sign out',
+      'empty': 'No tasks yet',
+      'previous': 'Previous',
+      'next': 'Next',
+      'add': 'Add task',
+      'taskTitle': 'Task title',
+      'cancel': 'Cancel',
+      'save': 'Save',
+      'delete': 'Delete',
+      'deleteConfirm': 'Delete this task?',
+    },
+    'zh': {
+      'appName': '基础框架',
+      'welcome': '欢迎回来',
+      'username': '用户名',
+      'password': '密码',
+      'required': '请填写此项',
+      'loading': '加载中…',
+      'login': '登录',
+      'language': '中文 / English',
+      'loginError': '登录失败，请检查账号、密码与网络',
+      'requestError': '请求失败，请刷新后重试',
+      'tasks': '我的任务',
+      'refresh': '刷新',
+      'logout': '退出登录',
+      'empty': '暂无任务',
+      'previous': '上一页',
+      'next': '下一页',
+      'add': '新增任务',
+      'taskTitle': '任务名称',
+      'cancel': '取消',
+      'save': '保存',
+      'delete': '删除',
+      'deleteConfirm': '确定删除此任务？',
+    },
+  };
+}
